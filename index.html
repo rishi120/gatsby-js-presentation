@@ -1,100 +1,141 @@
-    <!DOCTYPE html>
-    <html lang="en">
+                    <!DOCTYPE html>
+                    <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="lib/bootstrap.min.css">
-        <link rel="stylesheet" href="lib/reset.css">
-        <link rel="stylesheet" href="lib/reveal.css">
-        <!-- <link rel="stylesheet" href="lib/theme/black.css"> -->
-        <link rel="stylesheet" href="lib/sal-js/sal.css">
-        <link rel="stylesheet" href="assets/css/custom.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
-        <title>Gatsby and Graphql Presentation</title>
-    </head>
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <link rel="stylesheet" href="lib/bootstrap.min.css">
+                        <link rel="stylesheet" href="lib/reset.css">
+                        <link rel="stylesheet" href="lib/reveal.css">
+                        <!-- <link rel="stylesheet" href="lib/theme/black.css"> -->
+                        <link rel="stylesheet" href="lib/sal-js/sal.css">
+                        <link rel="stylesheet" href="assets/css/custom.min.css">
+                        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+                        <link rel="preconnect" href="https://fonts.googleapis.com">
+                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+                        <title>Gatsby and Graphql Presentation</title>
+                    </head>
 
-    <body>
-        <!--- nav ends -->
-        <div class="reveal">
-            <div class="slides">
-                <section data-state="home_active" class="home-section">
-                        <div class="heading-wrapper">
-                            <h1 data-sal="slide-up" data-sal-delay="300" data-sal-duration="1200" data-sal-easing="ease-out-bounce">Gatsby Js and Graphql</h1>
-                            <p data-sal="slide-up" data-sal-delay="500" data-sal-duration="1200" data-sal-easing="ease-out-bounce">In a Nutshell</p>
-                        </div>
+                    <body>
+                        <!--- nav ends -->
+                        <div class="reveal">
+                            <div class="slides">
+                                <section data-state="home_active" class="home-section">
+                                        <div class="heading-wrapper">
+                                            <h1 data-sal="slide-up" data-sal-delay="300" data-sal-duration="1200" data-sal-easing="ease-out-bounce">Gatsby Js and Graphql</h1>
+                                            <p data-sal="slide-up" data-sal-delay="500" data-sal-duration="1200" data-sal-easing="ease-out-bounce">In a Nutshell</p>
+                                        </div>
 
-                </section>
+                                </section>
 
-                <section data-state="about_active" class="about-section">
-                    <section>
-                           <div class="row">
-                               <div class="col-md-8">
-                                   <div class="about-gatsby">
-                                       <h1 data-sal="slide-up" data-sal-delay="300" data-sal-duration="1200" data-sal-easing="ease-out-bounce"> Static is fast.</h1>
-                                       <h2 data-sal="slide-up" data-sal-delay="500" data-sal-duration="1200" data-sal-easing="ease-out-bounce">Static now scales.</h2>
-                                       <p data-sal="slide-up" data-sal-delay="700" data-sal-duration="1200" data-sal-easing="ease-out-bounce">Gatsby is an open-source static website generator (SSG) that is based on the frontend development framework React and makes use of Webpack and <span>GraphQL</span> technology. It can be used to build static sites that are progressive web apps, follow the latest web standards, and fine-tuned for speed and security.</p>
-                                       <div class="row">
-                                           <div class="col-md-6">
-                                               <div class="card custom-card" style="background-color: #663399;" data-sal="slide-up" data-sal-delay="200" data-sal-duration="1200" data-sal-easing="ease-out-bounce">
-                                                   <h1 data-sal="slide-up" data-sal-delay="300" data-sal-duration="1200" data-sal-easing="ease-out-bounce">Ready to dive in?</h1>
-                                                   <p data-sal="slide-up" data-sal-delay="500" data-sal-duration="1200" data-sal-easing="ease-out-bounce">Set up your environment with three CLI commands</p>
-                                                   <svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#tutorial-cta-card-clip0)"><path fill-rule="evenodd" clip-rule="evenodd" d="M128.157 179.614C128.157 185.414 123.455 190.116 117.656 190.116C111.856 190.116 107.154 185.414 107.154 179.614L107.154 137.454C107.154 131.655 111.856 126.953 117.656 126.953C123.455 126.953 128.157 131.655 128.157 137.454L128.157 179.614ZM117.656 188.953C122.813 188.953 126.994 184.772 126.994 179.614L126.994 137.454C126.994 132.297 122.813 128.116 117.656 128.116C112.498 128.116 108.317 132.297 108.317 137.454L108.317 179.614C108.317 184.772 112.498 188.953 117.656 188.953ZM118.276 85.3733C124.268 85.3733 129.126 90.231 129.126 96.2233C129.126 102.216 124.268 107.073 118.276 107.073C112.283 107.073 107.426 102.216 107.426 96.2233C107.426 90.231 112.283 85.3733 118.276 85.3733ZM117.656 234.175C123.134 234.175 127.576 229.733 127.576 224.255L127.576 209.375C127.576 203.896 123.134 199.455 117.656 199.455C112.177 199.455 107.736 203.896 107.736 209.375L107.736 224.255C107.736 229.733 112.177 234.175 117.656 234.175Z" fill="#B17ACC"></path><rect width="34.72" height="19.84" rx="9.92" transform="matrix(-1.04911e-07 -1 -1 9.44125e-08 23.415 224.835)" stroke="#542C85" stroke-width="1.1625"></rect><rect width="19.84" height="19.84" rx="9.92" transform="matrix(-1.04911e-07 -1 -1 9.44125e-08 23.415 180.195)" stroke="#542C85" stroke-width="1.1625"></rect><rect width="74.4" height="19.84" rx="9.92" transform="matrix(-1.04911e-07 -1 -1 9.44125e-08 92.8555 230.455)" stroke="#B17ACC" stroke-width="1.1625"></rect><rect width="44.64" height="19.84" rx="9.92" transform="matrix(-1.04911e-07 -1 -1 9.44125e-08 92.8555 146.136)" stroke="#542C85" stroke-width="1.1625"></rect><rect width="80.6" height="19.84" rx="9.92" transform="matrix(-1.04911e-07 -1 -1 9.44125e-08 58.1348 183.335)" stroke="#542C85" stroke-width="1.1625"></rect><rect width="44.64" height="19.84" rx="9.92" transform="matrix(-1.04911e-07 -1 -1 9.44125e-08 58.7549 92.8154)" stroke="#542C85" stroke-width="1.1625"></rect><path d="M167.237 101.477C167.237 101.477 154.792 81.2021 152.237 78.4164C149.7 75.5606 147.03 71.2434 145.226 72.936C143.422 74.6287 146.882 82.1591 146.882 82.1591" fill="white"></path><path d="M167.237 101.477C167.237 101.477 154.792 81.2021 152.237 78.4164C149.7 75.5606 147.03 71.2434 145.226 72.936C143.422 74.6287 146.882 82.1591 146.882 82.1591" stroke="white" stroke-opacity="0.2" stroke-width="1.1625" stroke-miterlimit="10"></path><path d="M162.032 95.0449L144.162 79.7042C144.162 79.7042 134.624 71.8957 132.912 74.3635C131.27 76.8501 140.407 84.476 140.407 84.476" fill="white"></path><path d="M162.032 95.0449L144.162 79.7042C144.162 79.7042 134.624 71.8957 132.912 74.3635C131.27 76.8501 140.407 84.476 140.407 84.476" stroke="white" stroke-opacity="0.2" stroke-width="1.1625" stroke-miterlimit="10"></path><mask id="tutorial-cta-card-mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="86" y="57" width="129" height="224"><path d="M135.284 162.431L135.314 162.496L135.319 162.567L139.583 225.561L161.909 280.373L213.448 280.417L213.639 57.9512L87.0665 57.8422L135.284 162.431Z" fill="#48434F" stroke="#F5F5F5" stroke-width="0.775"></path></mask><g mask="url(#tutorial-cta-card-mask0)"><path d="M154.207 253.932C154.207 253.932 176.482 242.492 191.776 205.019C197.599 190.751 199.174 177.744 198.726 166.446C198.738 156.608 197.323 145.074 192.562 133.194C191.834 131.376 191.07 129.644 190.286 127.978C190.175 127.596 185.802 118.356 181.973 113.76C173.908 102.51 166.273 96.7872 162.984 94.8779C159.694 92.9686 152.406 88.4473 144.03 85.5221C131.53 81.1568 126.388 80.5093 125.754 82.8763C125.376 84.2852 130.47 86.8411 135.598 89.2658C140.726 91.6904 153.058 95.2357 150.9 103.29C149.211 109.591 141.668 111.072 138.919 111.316C130.925 112.026 119.168 108.575 117.405 115.156C117.405 115.156 131.646 118.446 133.317 118.933C145.653 122.519 154.139 127.607 161.589 140.127C172.912 159.155 167.152 177.336 165.566 183.814C163.98 190.293 156.638 210.15 144.625 220.612" fill="white"></path><path d="M154.207 253.932C154.207 253.932 176.482 242.492 191.776 205.019C197.599 190.751 199.174 177.744 198.726 166.446C198.738 156.608 197.323 145.074 192.562 133.194C191.834 131.376 191.07 129.644 190.286 127.978C190.175 127.596 185.802 118.356 181.973 113.76C173.908 102.51 166.273 96.7872 162.984 94.8779C159.694 92.9686 152.406 88.4473 144.03 85.5221C131.53 81.1568 126.388 80.5093 125.754 82.8763C125.376 84.2852 130.47 86.8411 135.598 89.2658C140.726 91.6904 153.058 95.2357 150.9 103.29C149.211 109.591 141.668 111.072 138.919 111.316C130.925 112.026 119.168 108.575 117.405 115.156C117.405 115.156 131.646 118.446 133.317 118.933C145.653 122.519 154.139 127.607 161.589 140.127C172.912 159.155 167.152 177.336 165.566 183.814C163.98 190.293 156.638 210.15 144.625 220.612" stroke="black" stroke-opacity="0.1" stroke-width="1.1625" stroke-miterlimit="10"></path></g></g><defs><clipPath id="tutorial-cta-card-clip0"><rect width="220" height="220" fill="white" transform="translate(0 220) rotate(-90)"></rect></clipPath></defs></svg>
-                                                   <button data-sal="slide-up" data-sal-delay="700" data-sal-duration="1200" data-sal-easing="ease-out-bounce"><a href="https://www.gatsbyjs.com/docs/quick-start" target="_blank">Quick Start</a></button>
-                                               </div>
-                                           </div>
-                                           <div class="col-md-6">
-                                            <div class="card custom-card" style="background-color: #fb8400;" data-sal="slide-up" data-sal-delay="400" data-sal-duration="1200" data-sal-easing="ease-out-bounce">
-                                                <h1 data-sal="slide-up" data-sal-delay="300" data-sal-duration="1200" data-sal-easing="ease-out-bounce">New to Gatsby?</h1>
-                                                <p style="color: black;" data-sal="slide-up" data-sal-delay="500" data-sal-duration="1200" data-sal-easing="ease-out-bounce">Learn the basics by building a simple site</p>
-                                                <svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#docs-tutorial-cta-bg-clip0)"><path d="M181.297 154.22H129.229L155.263 108.318L181.297 63.1006L208.016 108.318L234.05 154.22H181.297Z" fill="white" fill-opacity="0.4"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M110.551 87.1719V132.156H58.3164C62.1975 106.754 84.0896 87.2791 110.551 87.1719Z" fill="#F67300"></path><rect x="23.7252" y="45.3297" width="86.3011" height="86.3011" stroke="#FFB238" stroke-width="1.05"></rect><circle cx="110.771" cy="140.237" r="53.0658" stroke="#FFB238" stroke-width="1.05"></circle><path d="M206.9 219.7C205.4 178.7 150.66 95.4561 149.674 93.7332C148.688 92.0102 142.391 76.9375 142.391 76.9375C142.391 76.9375 140.685 73.1436 137.798 74.8328C134.158 76.5828 129.853 86.896 129.853 86.896C129.853 86.896 128.479 92.1748 131.148 92.1748C133.108 92.1048 132.023 98.6352 132.023 98.6352L132.233 111.746C132.233 111.746 124.498 108.085 120.543 107.406C117.245 106.84 113.385 108.249 113.035 109.719L126.003 117.346L130.506 120.277C130.506 120.277 137.798 126.2 139.665 129.319C141.532 132.438 172.9 187.7 175.4 219.7" fill="white"></path><path d="M135.451 112.096C135.398 112.096 135.346 112.09 135.294 112.078L107.932 105.796C107.932 105.796 107.842 105.795 107.827 105.795L102.667 108.515C102.565 108.569 102.453 108.596 102.341 108.596C102.19 108.596 102.039 108.547 101.915 108.451C101.697 108.284 101.597 108.007 101.658 107.74L108.518 77.6402C108.559 77.459 108.671 77.3018 108.828 77.203C108.941 77.1323 109.07 77.0957 109.201 77.0957C109.253 77.0957 109.305 77.1015 109.356 77.1131L141.556 84.4631C141.933 84.5493 142.169 84.9239 142.083 85.3005L136.133 111.551C136.092 111.732 135.98 111.889 135.823 111.988C135.711 112.059 135.581 112.096 135.451 112.096Z" fill="white"></path><path d="M107.399 105.7C107.469 105.63 107.759 105.7 107.899 105.7C107.969 105.7 108.329 105.7 108.399 105.7L135.899 112.2L140.399 92.7002L103.031 103.486L101.899 108.2H102.899L107.399 105.7Z" fill="black" fill-opacity="0.2"></path><path d="M135.451 112.096C135.398 112.096 135.346 112.09 135.294 112.078L107.932 105.796C107.932 105.796 107.842 105.795 107.827 105.795L102.667 108.515C102.565 108.569 102.453 108.596 102.341 108.596C102.19 108.596 102.039 108.547 101.915 108.451C101.697 108.284 101.597 108.007 101.658 107.74L108.518 77.6402C108.559 77.459 108.671 77.3018 108.828 77.203C108.941 77.1323 109.07 77.0957 109.201 77.0957C109.253 77.0957 109.305 77.1015 109.356 77.1131L141.556 84.4631C141.933 84.5493 142.169 84.9239 142.083 85.3005L136.133 111.551C136.092 111.732 135.98 111.889 135.823 111.988C135.711 112.059 135.581 112.096 135.451 112.096Z" stroke="black" stroke-opacity="0.1"></path><path d="M101.29 113.426C101.22 113.216 101.01 113.146 100.8 113.146C100.59 113.146 100.38 113.286 100.31 113.426C99.9601 114.126 96.8101 120.285 98.4901 122.805C98.8401 123.296 99.5401 123.926 100.87 123.926C100.94 123.926 101.01 123.926 101.08 123.926C102.41 123.855 103.11 123.155 103.39 122.596C104.86 120.005 101.64 114.126 101.29 113.426Z" fill="black" fill-opacity="0.1"></path><path d="M132.229 111.745C132.229 111.745 124.494 108.085 120.539 107.405C117.242 106.839 113.381 108.248 113.031 109.718L125.999 117.345L130.502 120.276C130.502 120.276 136.418 124.738 139.661 129.319C139.661 129.319 170.899 183.7 175.899 219.2" stroke="black" stroke-opacity="0.1" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M119.246 79.4001C119.246 79.4001 115.833 75.2001 112.981 76.2563C110.64 77.1231 106.401 81.118 105.421 82.798C104.441 84.408 103.787 86.1522 104.371 86.7563C106.08 88.5266 114.381 80.8763 114.381 80.8763" fill="white"></path><path d="M119.246 79.4001C119.246 79.4001 115.833 75.2001 112.981 76.2563C110.64 77.1231 106.401 81.118 105.421 82.798C104.441 84.408 103.787 86.1522 104.371 86.7563C106.08 88.5266 114.381 80.8763 114.381 80.8763" stroke="black" stroke-opacity="0.1" stroke-miterlimit="10" stroke-linecap="round"></path><path d="M126.84 77.0249C126.84 77.0249 123.383 75.8079 121.666 76.3977C119 77.3132 112.615 87.9533 112.965 89.4233C113.315 90.8933 114.66 90.2549 115.22 89.9749C115.78 89.6948 124.95 81.9249 124.95 81.9249" fill="white"></path><path d="M126.84 77.0249C126.84 77.0249 123.383 75.8079 121.666 76.3977C119 77.3132 112.615 87.9533 112.965 89.4233C113.315 90.8933 114.66 90.2549 115.22 89.9749C115.78 89.6948 124.95 81.9249 124.95 81.9249" stroke="black" stroke-opacity="0.1" stroke-miterlimit="10" stroke-linecap="round"></path><path d="M136.396 76.4683C136.396 76.4683 132.483 72.922 129.377 74.3309C125.645 76.0235 122.171 89.8588 122.133 91.3433C122.063 94.1432 123.411 95.0157 124.671 94.5257C125.931 94.0357 131.233 84.2827 131.233 84.2827" fill="white"></path><path d="M136.396 76.4683C136.396 76.4683 132.483 72.922 129.377 74.3309C125.645 76.0235 122.171 89.8588 122.133 91.3433C122.063 94.1432 123.411 95.0157 124.671 94.5257C125.931 94.0357 131.233 84.2827 131.233 84.2827" stroke="black" stroke-opacity="0.1" stroke-miterlimit="10"></path><path d="M142.389 76.9375C142.389 76.9375 140.683 73.1436 137.796 74.8328C134.156 76.5828 129.851 86.896 129.851 86.896C129.851 86.896 128.477 92.1748 131.146 92.1748C133.106 92.1048 138.933 80.7123 138.933 80.7123" fill="white"></path><path d="M138.933 80.7123C138.933 80.7123 133.106 92.1048 131.146 92.1748C128.477 92.1748 129.851 86.896 129.851 86.896C129.851 86.896 134.156 76.5828 137.796 74.8328C140.683 73.1436 142.389 76.9375 142.389 76.9375C145.059 83.0251 150.899 96.0002 152.899 99.2002C155.399 103.2 206.899 183.2 206.899 220.7" stroke="black" stroke-opacity="0.1" stroke-miterlimit="10" stroke-linecap="round"></path></g><defs><clipPath id="docs-tutorial-cta-bg-clip0"><rect width="220" height="220" fill="white"></rect></clipPath></defs></svg>
-                                                <button data-sal="slide-up" data-sal-delay="700" data-sal-duration="1200" data-sal-easing="ease-out-bounce"><a href="https://www.gatsbyjs.com/docs/tutorial/" target="_blank">Try the Tutorial</a></button>
+                                <section data-state="about_active" class="about-section">
+                                    <section>
+                                        <div class="row">
+                                            <div class="col-md-8">
+                                                <div class="about-gatsby">
+                                                    <h1 data-sal="slide-up" data-sal-delay="300" data-sal-duration="1200" data-sal-easing="ease-out-bounce"> Static is fast.</h1>
+                                                    <h2 data-sal="slide-up" data-sal-delay="500" data-sal-duration="1200" data-sal-easing="ease-out-bounce">Static now scales.</h2>
+                                                    <p data-sal="slide-up" data-sal-delay="700" data-sal-duration="1200" data-sal-easing="ease-out-bounce">Gatsby is an open-source static website generator (SSG) that is based on the frontend development framework React and makes use of Webpack and <span>GraphQL</span> technology. It can be used to build static sites that are progressive web apps, follow the latest web standards, and fine-tuned for speed and security.</p>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="card custom-card" style="background-color: #663399;" data-sal="slide-up" data-sal-delay="200" data-sal-duration="1200" data-sal-easing="ease-out-bounce">
+                                                                <h1 data-sal="slide-up" data-sal-delay="300" data-sal-duration="1200" data-sal-easing="ease-out-bounce">Ready to dive in?</h1>
+                                                                <p data-sal="slide-up" data-sal-delay="500" data-sal-duration="1200" data-sal-easing="ease-out-bounce">Set up your environment with three CLI commands</p>
+                                                                <svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#tutorial-cta-card-clip0)"><path fill-rule="evenodd" clip-rule="evenodd" d="M128.157 179.614C128.157 185.414 123.455 190.116 117.656 190.116C111.856 190.116 107.154 185.414 107.154 179.614L107.154 137.454C107.154 131.655 111.856 126.953 117.656 126.953C123.455 126.953 128.157 131.655 128.157 137.454L128.157 179.614ZM117.656 188.953C122.813 188.953 126.994 184.772 126.994 179.614L126.994 137.454C126.994 132.297 122.813 128.116 117.656 128.116C112.498 128.116 108.317 132.297 108.317 137.454L108.317 179.614C108.317 184.772 112.498 188.953 117.656 188.953ZM118.276 85.3733C124.268 85.3733 129.126 90.231 129.126 96.2233C129.126 102.216 124.268 107.073 118.276 107.073C112.283 107.073 107.426 102.216 107.426 96.2233C107.426 90.231 112.283 85.3733 118.276 85.3733ZM117.656 234.175C123.134 234.175 127.576 229.733 127.576 224.255L127.576 209.375C127.576 203.896 123.134 199.455 117.656 199.455C112.177 199.455 107.736 203.896 107.736 209.375L107.736 224.255C107.736 229.733 112.177 234.175 117.656 234.175Z" fill="#B17ACC"></path><rect width="34.72" height="19.84" rx="9.92" transform="matrix(-1.04911e-07 -1 -1 9.44125e-08 23.415 224.835)" stroke="#542C85" stroke-width="1.1625"></rect><rect width="19.84" height="19.84" rx="9.92" transform="matrix(-1.04911e-07 -1 -1 9.44125e-08 23.415 180.195)" stroke="#542C85" stroke-width="1.1625"></rect><rect width="74.4" height="19.84" rx="9.92" transform="matrix(-1.04911e-07 -1 -1 9.44125e-08 92.8555 230.455)" stroke="#B17ACC" stroke-width="1.1625"></rect><rect width="44.64" height="19.84" rx="9.92" transform="matrix(-1.04911e-07 -1 -1 9.44125e-08 92.8555 146.136)" stroke="#542C85" stroke-width="1.1625"></rect><rect width="80.6" height="19.84" rx="9.92" transform="matrix(-1.04911e-07 -1 -1 9.44125e-08 58.1348 183.335)" stroke="#542C85" stroke-width="1.1625"></rect><rect width="44.64" height="19.84" rx="9.92" transform="matrix(-1.04911e-07 -1 -1 9.44125e-08 58.7549 92.8154)" stroke="#542C85" stroke-width="1.1625"></rect><path d="M167.237 101.477C167.237 101.477 154.792 81.2021 152.237 78.4164C149.7 75.5606 147.03 71.2434 145.226 72.936C143.422 74.6287 146.882 82.1591 146.882 82.1591" fill="white"></path><path d="M167.237 101.477C167.237 101.477 154.792 81.2021 152.237 78.4164C149.7 75.5606 147.03 71.2434 145.226 72.936C143.422 74.6287 146.882 82.1591 146.882 82.1591" stroke="white" stroke-opacity="0.2" stroke-width="1.1625" stroke-miterlimit="10"></path><path d="M162.032 95.0449L144.162 79.7042C144.162 79.7042 134.624 71.8957 132.912 74.3635C131.27 76.8501 140.407 84.476 140.407 84.476" fill="white"></path><path d="M162.032 95.0449L144.162 79.7042C144.162 79.7042 134.624 71.8957 132.912 74.3635C131.27 76.8501 140.407 84.476 140.407 84.476" stroke="white" stroke-opacity="0.2" stroke-width="1.1625" stroke-miterlimit="10"></path><mask id="tutorial-cta-card-mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="86" y="57" width="129" height="224"><path d="M135.284 162.431L135.314 162.496L135.319 162.567L139.583 225.561L161.909 280.373L213.448 280.417L213.639 57.9512L87.0665 57.8422L135.284 162.431Z" fill="#48434F" stroke="#F5F5F5" stroke-width="0.775"></path></mask><g mask="url(#tutorial-cta-card-mask0)"><path d="M154.207 253.932C154.207 253.932 176.482 242.492 191.776 205.019C197.599 190.751 199.174 177.744 198.726 166.446C198.738 156.608 197.323 145.074 192.562 133.194C191.834 131.376 191.07 129.644 190.286 127.978C190.175 127.596 185.802 118.356 181.973 113.76C173.908 102.51 166.273 96.7872 162.984 94.8779C159.694 92.9686 152.406 88.4473 144.03 85.5221C131.53 81.1568 126.388 80.5093 125.754 82.8763C125.376 84.2852 130.47 86.8411 135.598 89.2658C140.726 91.6904 153.058 95.2357 150.9 103.29C149.211 109.591 141.668 111.072 138.919 111.316C130.925 112.026 119.168 108.575 117.405 115.156C117.405 115.156 131.646 118.446 133.317 118.933C145.653 122.519 154.139 127.607 161.589 140.127C172.912 159.155 167.152 177.336 165.566 183.814C163.98 190.293 156.638 210.15 144.625 220.612" fill="white"></path><path d="M154.207 253.932C154.207 253.932 176.482 242.492 191.776 205.019C197.599 190.751 199.174 177.744 198.726 166.446C198.738 156.608 197.323 145.074 192.562 133.194C191.834 131.376 191.07 129.644 190.286 127.978C190.175 127.596 185.802 118.356 181.973 113.76C173.908 102.51 166.273 96.7872 162.984 94.8779C159.694 92.9686 152.406 88.4473 144.03 85.5221C131.53 81.1568 126.388 80.5093 125.754 82.8763C125.376 84.2852 130.47 86.8411 135.598 89.2658C140.726 91.6904 153.058 95.2357 150.9 103.29C149.211 109.591 141.668 111.072 138.919 111.316C130.925 112.026 119.168 108.575 117.405 115.156C117.405 115.156 131.646 118.446 133.317 118.933C145.653 122.519 154.139 127.607 161.589 140.127C172.912 159.155 167.152 177.336 165.566 183.814C163.98 190.293 156.638 210.15 144.625 220.612" stroke="black" stroke-opacity="0.1" stroke-width="1.1625" stroke-miterlimit="10"></path></g></g><defs><clipPath id="tutorial-cta-card-clip0"><rect width="220" height="220" fill="white" transform="translate(0 220) rotate(-90)"></rect></clipPath></defs></svg>
+                                                                <button data-sal="slide-up" data-sal-delay="700" data-sal-duration="1200" data-sal-easing="ease-out-bounce"><a href="https://www.gatsbyjs.com/docs/quick-start" target="_blank">Quick Start</a></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="card custom-card" style="background-color: #fb8400;" data-sal="slide-up" data-sal-delay="400" data-sal-duration="1200" data-sal-easing="ease-out-bounce">
+                                                                <h1 data-sal="slide-up" data-sal-delay="300" data-sal-duration="1200" data-sal-easing="ease-out-bounce">New to Gatsby?</h1>
+                                                                <p style="color: black;" data-sal="slide-up" data-sal-delay="500" data-sal-duration="1200" data-sal-easing="ease-out-bounce">Learn the basics by building a simple site</p>
+                                                                <svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#docs-tutorial-cta-bg-clip0)"><path d="M181.297 154.22H129.229L155.263 108.318L181.297 63.1006L208.016 108.318L234.05 154.22H181.297Z" fill="white" fill-opacity="0.4"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M110.551 87.1719V132.156H58.3164C62.1975 106.754 84.0896 87.2791 110.551 87.1719Z" fill="#F67300"></path><rect x="23.7252" y="45.3297" width="86.3011" height="86.3011" stroke="#FFB238" stroke-width="1.05"></rect><circle cx="110.771" cy="140.237" r="53.0658" stroke="#FFB238" stroke-width="1.05"></circle><path d="M206.9 219.7C205.4 178.7 150.66 95.4561 149.674 93.7332C148.688 92.0102 142.391 76.9375 142.391 76.9375C142.391 76.9375 140.685 73.1436 137.798 74.8328C134.158 76.5828 129.853 86.896 129.853 86.896C129.853 86.896 128.479 92.1748 131.148 92.1748C133.108 92.1048 132.023 98.6352 132.023 98.6352L132.233 111.746C132.233 111.746 124.498 108.085 120.543 107.406C117.245 106.84 113.385 108.249 113.035 109.719L126.003 117.346L130.506 120.277C130.506 120.277 137.798 126.2 139.665 129.319C141.532 132.438 172.9 187.7 175.4 219.7" fill="white"></path><path d="M135.451 112.096C135.398 112.096 135.346 112.09 135.294 112.078L107.932 105.796C107.932 105.796 107.842 105.795 107.827 105.795L102.667 108.515C102.565 108.569 102.453 108.596 102.341 108.596C102.19 108.596 102.039 108.547 101.915 108.451C101.697 108.284 101.597 108.007 101.658 107.74L108.518 77.6402C108.559 77.459 108.671 77.3018 108.828 77.203C108.941 77.1323 109.07 77.0957 109.201 77.0957C109.253 77.0957 109.305 77.1015 109.356 77.1131L141.556 84.4631C141.933 84.5493 142.169 84.9239 142.083 85.3005L136.133 111.551C136.092 111.732 135.98 111.889 135.823 111.988C135.711 112.059 135.581 112.096 135.451 112.096Z" fill="white"></path><path d="M107.399 105.7C107.469 105.63 107.759 105.7 107.899 105.7C107.969 105.7 108.329 105.7 108.399 105.7L135.899 112.2L140.399 92.7002L103.031 103.486L101.899 108.2H102.899L107.399 105.7Z" fill="black" fill-opacity="0.2"></path><path d="M135.451 112.096C135.398 112.096 135.346 112.09 135.294 112.078L107.932 105.796C107.932 105.796 107.842 105.795 107.827 105.795L102.667 108.515C102.565 108.569 102.453 108.596 102.341 108.596C102.19 108.596 102.039 108.547 101.915 108.451C101.697 108.284 101.597 108.007 101.658 107.74L108.518 77.6402C108.559 77.459 108.671 77.3018 108.828 77.203C108.941 77.1323 109.07 77.0957 109.201 77.0957C109.253 77.0957 109.305 77.1015 109.356 77.1131L141.556 84.4631C141.933 84.5493 142.169 84.9239 142.083 85.3005L136.133 111.551C136.092 111.732 135.98 111.889 135.823 111.988C135.711 112.059 135.581 112.096 135.451 112.096Z" stroke="black" stroke-opacity="0.1"></path><path d="M101.29 113.426C101.22 113.216 101.01 113.146 100.8 113.146C100.59 113.146 100.38 113.286 100.31 113.426C99.9601 114.126 96.8101 120.285 98.4901 122.805C98.8401 123.296 99.5401 123.926 100.87 123.926C100.94 123.926 101.01 123.926 101.08 123.926C102.41 123.855 103.11 123.155 103.39 122.596C104.86 120.005 101.64 114.126 101.29 113.426Z" fill="black" fill-opacity="0.1"></path><path d="M132.229 111.745C132.229 111.745 124.494 108.085 120.539 107.405C117.242 106.839 113.381 108.248 113.031 109.718L125.999 117.345L130.502 120.276C130.502 120.276 136.418 124.738 139.661 129.319C139.661 129.319 170.899 183.7 175.899 219.2" stroke="black" stroke-opacity="0.1" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M119.246 79.4001C119.246 79.4001 115.833 75.2001 112.981 76.2563C110.64 77.1231 106.401 81.118 105.421 82.798C104.441 84.408 103.787 86.1522 104.371 86.7563C106.08 88.5266 114.381 80.8763 114.381 80.8763" fill="white"></path><path d="M119.246 79.4001C119.246 79.4001 115.833 75.2001 112.981 76.2563C110.64 77.1231 106.401 81.118 105.421 82.798C104.441 84.408 103.787 86.1522 104.371 86.7563C106.08 88.5266 114.381 80.8763 114.381 80.8763" stroke="black" stroke-opacity="0.1" stroke-miterlimit="10" stroke-linecap="round"></path><path d="M126.84 77.0249C126.84 77.0249 123.383 75.8079 121.666 76.3977C119 77.3132 112.615 87.9533 112.965 89.4233C113.315 90.8933 114.66 90.2549 115.22 89.9749C115.78 89.6948 124.95 81.9249 124.95 81.9249" fill="white"></path><path d="M126.84 77.0249C126.84 77.0249 123.383 75.8079 121.666 76.3977C119 77.3132 112.615 87.9533 112.965 89.4233C113.315 90.8933 114.66 90.2549 115.22 89.9749C115.78 89.6948 124.95 81.9249 124.95 81.9249" stroke="black" stroke-opacity="0.1" stroke-miterlimit="10" stroke-linecap="round"></path><path d="M136.396 76.4683C136.396 76.4683 132.483 72.922 129.377 74.3309C125.645 76.0235 122.171 89.8588 122.133 91.3433C122.063 94.1432 123.411 95.0157 124.671 94.5257C125.931 94.0357 131.233 84.2827 131.233 84.2827" fill="white"></path><path d="M136.396 76.4683C136.396 76.4683 132.483 72.922 129.377 74.3309C125.645 76.0235 122.171 89.8588 122.133 91.3433C122.063 94.1432 123.411 95.0157 124.671 94.5257C125.931 94.0357 131.233 84.2827 131.233 84.2827" stroke="black" stroke-opacity="0.1" stroke-miterlimit="10"></path><path d="M142.389 76.9375C142.389 76.9375 140.683 73.1436 137.796 74.8328C134.156 76.5828 129.851 86.896 129.851 86.896C129.851 86.896 128.477 92.1748 131.146 92.1748C133.106 92.1048 138.933 80.7123 138.933 80.7123" fill="white"></path><path d="M138.933 80.7123C138.933 80.7123 133.106 92.1048 131.146 92.1748C128.477 92.1748 129.851 86.896 129.851 86.896C129.851 86.896 134.156 76.5828 137.796 74.8328C140.683 73.1436 142.389 76.9375 142.389 76.9375C145.059 83.0251 150.899 96.0002 152.899 99.2002C155.399 103.2 206.899 183.2 206.899 220.7" stroke="black" stroke-opacity="0.1" stroke-miterlimit="10" stroke-linecap="round"></path></g><defs><clipPath id="docs-tutorial-cta-bg-clip0"><rect width="220" height="220" fill="white"></rect></clipPath></defs></svg>
+                                                                <button data-sal="slide-up" data-sal-delay="700" data-sal-duration="1200" data-sal-easing="ease-out-bounce"><a href="https://www.gatsbyjs.com/docs/tutorial/" target="_blank">Try the Tutorial</a></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="gatsby-image-wrapper">
+                                                    <img src="assets/images/logo.png" class="img-fluid" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1200" data-sal-easing="ease-out-bounce">
+                                                </div>
                                             </div>
                                         </div>
-                                       </div>
-                                   </div>
-                               </div>
-                               <div class="col-md-4">
-                                   <div class="gatsby-image-wrapper">
-                                       <img src="assets/images/logo.png" class="img-fluid" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1200" data-sal-easing="ease-out-bounce">
-                                   </div>
-                               </div>
-                           </div>
-                    </section>
-                    <section data-state="about_children" class="about-children">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="content-wrapper">
-                                        <h1><span class="animate-up">Nitty-gritty descriptions on how Gatsby works. </span>
-                                        </h1>
-                                        <hr>
-                                        <p><span>Gatsby</span> uses powerful preconfiguration to build a website that uses only static files for incredibly fast page loads, service workers, code splitting, server-side rendering, intelligent image loading, asset optimization, and data prefetching. All out of the box. I didn’t believe the speed until I tried it myself.</p>
-                                        <p>You code and develop your site, <span>Gatsby</span> transforms it into a directory with a single HTML file and your static assets. This folder is uploaded to your favorite hosting provider, and voila.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                  <div class="img-wrapper">
-                                      <img src="assets/images/istockphoto.jpg" class="img-fluid">
-                                  </div>
-                                </div>
+                                    </section>
+                                    <section data-state="about_children" class="about-children">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="content-wrapper">
+                                                        <h1><span class="animate-up">Nitty-gritty descriptions on how Gatsby works. </span>
+                                                        </h1>
+                                                        <hr>
+                                                        <p><span>Gatsby</span> uses powerful preconfiguration to build a website that uses only static files for incredibly fast page loads, service workers, code splitting, server-side rendering, intelligent image loading, asset optimization, and data prefetching. All out of the box. I didn’t believe the speed until I tried it myself.</p>
+                                                        <p>You code and develop your site, <span>Gatsby</span> transforms it into a directory with a single HTML file and your static assets. This folder is uploaded to your favorite hosting provider, and voila.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                <div class="img-wrapper">
+                                                    <img src="assets/images/istockphoto.jpg" class="img-fluid">
+                                                </div>
+                                                </div>
+                                            </div>
+                                    </section>
+                                    <section data-state="about_children" class="about-children">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="content-wrapper">
+                                                    <h1>Gatsby folder structure</h1>
+                                                    <hr>
+                                                    <pre class="language-text"><code class="language-text"><div class="token-line"><span class="token plain">/</span></div><div class="token-line"><span class="token plain">|-- /.cache</span></div><div class="token-line"></div><div class="token-line"><span class="token plain">|-- /public</span></div><div class="token-line"><span class="token plain">|-- /src</span></div><div class="token-line"><span class="token plain">    |-- /api</span></div><div class="token-line"><span class="token plain">    |-- /pages</span></div><div class="token-line"><span class="token plain">    |-- /templates</span></div><div class="token-line"><span class="token plain">    |-- html.js</span></div><div class="token-line"><span class="token plain">|-- /static</span></div><div class="token-line"><span class="token plain">|-- gatsby-config.js</span></div><div class="token-line"><span class="token plain">|-- gatsby-node.js</span></div><div class="token-line"><span class="token plain">|-- gatsby-ssr.js</span></div><div class="token-line"><span class="token plain">|-- gatsby-browser.js</span></div></code></pre>
+                                                    <p class="notification">* detail explaination to be given while presenting</p>
+                                                </div>
+                                                </div>
+                                            <div class="col-md-6">
+                                            <div class="img-wrapper custom-img-wrapper">
+                                                <img src="assets/images/folder.png" class="img-fluid custom-img">
+                                            </div>
+                                            </div>
+                                        </div>
+                                </section>
+                                </section>
+
+                                <section data-state="services_active" class="brief-intro">
+                                    <section>
+                                        <h1>A brief intro to CSS/SCSS Modules</h1>
+                                        <p>A CSS Module is a CSS file in which all class names and animation names are scoped locally by default. All URLs (url(...)) and @imports are in module request format (./xxx and ../xxx means relative, xxx and xxx/yyy means in modules folder, i. e. in node_modules).</p>
+                                        <div class="row">
+                                            <div class="col-md-8">
+                                                <div class="intro-wrapper">
+                                                    <h5>Using Css/Scss modules on our app.</h5>
+                                                <hr>
+                                                <p>When importing the CSS Module from a JS Module, it exports an object with all mappings from local names to global names. By using css/scss modules can help us in creating unique class names so that we don't have to end up messing around with class names.</p>
+                                                <div class="code-block">
+                                                    <pre><span class="pl-k">import</span> <span class="pl-s1">styles</span><span class="pl-k">from</span> <span class="pl-s">"./style.css"</span><span class="pl-kos">;</span>
+                                                        <span class="pl-c">// import { className } from "./style.css";</span>
+                                                         <span class="pl-s1">element</span><span class="pl-kos">.</span><span class="pl-c1">innerHTML</span> <span class="pl-c1">=</span> <span class="pl-s">'&lt;div class="'</span> <span class="pl-c1">+</span> <span class="pl-s1">styles</span><span class="pl-kos">.</span><span class="pl-c1">className</span> <span class="pl-c1">+</span> <span class="pl-s">'"&gt;'</span><span class="pl-kos">;</span></pre>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="vector-img-wrapper">
+                                                    <img src="assets/images/css.jpg" class="img-fluid">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </section>
+                                <section data-state="products_active">Demo 6</section>
                             </div>
-                    </section>
-                </section>
+                        </div>
+                        <script src="lib/jquery.min.js"></script>
+                        <script src="lib/bootstrap.min.js"></script>
+                        <script src="lib/sal-js/sal.js"></script>
+                        <script src="lib/reveal.js"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+                        <script src="assets/js/custom.js"></script>
 
-                <section data-state="services_active">Demo 5</section>
-                <section data-state="products_active">Demo 6</section>
-            </div>
-        </div>
-        <script src="lib/jquery.min.js"></script>
-        <script src="lib/bootstrap.min.js"></script>
-        <script src="lib/sal-js/sal.js"></script>
-        <script src="lib/reveal.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
-        <script src="assets/js/custom.js"></script>
+                    </body>
 
-    </body>
-
-    </html>
+                    </html>
