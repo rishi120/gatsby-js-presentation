@@ -112,9 +112,13 @@
                                                 <hr>
                                                 <p>When importing the CSS Module from a JS Module, it exports an object with all mappings from local names to global names. By using css/scss modules can help us in creating unique class names so that we don't have to end up messing around with class names.</p>
                                                 <div class="code-block">
-                                                    <pre><span class="pl-k">import</span> <span class="pl-s1">styles</span><span class="pl-k">from</span> <span class="pl-s">"./style.css"</span><span class="pl-kos">;</span>
-                                                        <span class="pl-c">// import { className } from "./style.css";</span>
-                                                         <span class="pl-s1">element</span><span class="pl-kos">.</span><span class="pl-c1">innerHTML</span> <span class="pl-c1">=</span> <span class="pl-s">'&lt;div class="'</span> <span class="pl-c1">+</span> <span class="pl-s1">styles</span><span class="pl-kos">.</span><span class="pl-c1">className</span> <span class="pl-c1">+</span> <span class="pl-s">'"&gt;'</span><span class="pl-kos">;</span></pre>
+                                                    <ul>
+                                                        <pre>
+                                                        <li><span>import styles from "./style.css";</span></li>
+                                                        <li><span>// import { className } from "./style.css";</span></li>
+                                                        <li><span>element.innerHTML</span> <span>=</span><span><span class="pl-s">'&lt;div class="'</span><span class="pl-c1">+</span><span class="pl-s1">styles</span><span class="pl-kos">.</span><span class="pl-c1">className</span><span class="pl-c1">+</span><span class="pl-s">'"&gt;'</span><span class="pl-kos">;</span></li>
+                                                        </pre>
+                                                    </ul>
                                                 </div>
                                                 </div>
                                             </div>

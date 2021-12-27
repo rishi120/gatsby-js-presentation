@@ -291,18 +291,20 @@ body {
                         width: 500px;
                         border-radius: 5px;
 
-                        ul {
-                            list-style-type: none;
-
-                            li {
-                                font: 15px $font;
-                                padding-bottom: 10px;
+                        pre {
+                            span {
+                                font: 13px $font;
                             }
                         }
                     }
                 }
 
                 .vector-img-wrapper {
+                    height: 100%;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+
                     img {
                         width: 70%;
                         border-radius: 50%;
