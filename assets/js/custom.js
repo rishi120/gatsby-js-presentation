@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
     /* gsap config */
     setTimeout(() => {
         var listItems = gsap.timeline();
@@ -30,9 +30,9 @@ $(document).ready(function() {
     // tl.to('ul.transition li', { duration: .5, scaleY: 0, transformOrigin: "bottom left", stagger: .1, delay: .1 });
 
     /* sal js config */
-        sal({
-            once: false,
-        });
+    sal({
+        once: false,
+    });
 
 
     /* reveal js config */
